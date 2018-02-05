@@ -28,7 +28,7 @@ public class EncryptClient {
 		
 
 		// Setup the cloud storage account.
-		CloudStorageAccount account = CloudStorageAccount.parse("DefaultEndpointsProtocol=https;AccountName=mayegrs20180127;AccountKey=zgNMMgF4Y9+oCAPdNnm/eX/4p9G9fh0OiEPhHtBn5nCap2eY4cy5LOH0j8U2Z/U4GLUE/X6Tvzs0Joj84UhFKA==;EndpointSuffix=core.windows.net");
+		CloudStorageAccount account = CloudStorageAccount.parse("connection string here");
 
 		// Create a blob service client
 		CloudBlobClient blobClient = account.createCloudBlobClient();
